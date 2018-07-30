@@ -2,27 +2,25 @@
 
 
 //load express package ! to express variation.
-var express = require('express');
 var fs = require("fs");
 //To catch path, loading moudle 'path'
 var path = require("path");
+var express = require('express');
 //return application using call 'express' method
 var app = express();
 
+
+
+//File Existing ??
+fs.exists('./public/GoogleMapAPI.html',function(exists){
+    console.log(exists? 'Yes':'no');
+});
 
 //Load File Part
 //Add this sentence 'use method'
 app.use(express.static('public'));
 
-fs.exists('./public/GoogleMapAPI.html',function(exists){
-    console.log(exists? 'Yes':'no');
-});
 
-//Listening Part
-//listen 3000port & if connected, print 'Connected 3000 port'
-app.listen(3000,function (){
-    console.log("Connected 3000 port");
-});
 
 //Router Part
 //If user connect home, run function(req,res)...
@@ -43,4 +41,10 @@ app.get('/map',function(req,res){
         res.end(data);
     })
     //res.send('hello home page');
+});
+
+//Listening Part
+//listen 3000port & if connected, print 'Connected 3000 port'
+app.listen(3000,function (){
+    console.log("Connected 3000 port");
 });

@@ -18,8 +18,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="44" />
+            <state relative-caret-position="290">
+              <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -36,7 +36,7 @@
       <file leaf-file-name="calcLocation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/calcLocation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="-38">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
@@ -45,8 +45,8 @@
       <file leaf-file-name="GoogleMapAPI.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/GoogleMapAPI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="4120" column="39" lean-forward="true" selection-end-line="4144" selection-end-column="7" />
+            <state relative-caret-position="183">
+              <caret line="4106" column="42" lean-forward="true" selection-start-line="4106" selection-start-column="42" selection-end-line="4106" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -100,10 +100,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
-    <option name="y" value="17" />
+    <option name="x" value="104" />
+    <option name="y" value="181" />
     <option name="width" value="1258" />
-    <option name="height" value="1047" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -236,15 +236,15 @@
       <workItem from="1532965546903" duration="59000" />
       <workItem from="1532965633847" duration="302000" />
       <workItem from="1532965954525" duration="1329000" />
-      <workItem from="1532967289184" duration="11484000" />
+      <workItem from="1532967289184" duration="14341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13174000" />
+    <option name="totallyTimeSpent" value="16031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="394" y="17" width="1258" height="1047" extended-state="0" />
+    <frame x="104" y="181" width="1258" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -257,7 +257,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867885" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33849558" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -345,14 +345,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/GoogleMapAPI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="4120" column="39" lean-forward="true" selection-end-line="4144" selection-end-column="7" />
+        <state relative-caret-position="183">
+          <caret line="4106" column="42" lean-forward="true" selection-start-line="4106" selection-start-column="42" selection-end-line="4106" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/calcLocation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="-38">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
@@ -366,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="44" />
+        <state relative-caret-position="290">
+          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
         </state>
       </provider>
     </entry>

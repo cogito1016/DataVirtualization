@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c029f9c-4559-4500-9b1e-cbd87219e7c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/calcLocation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cardata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,11 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="382">
+              <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,8 +38,8 @@
       <file leaf-file-name="GoogleMapAPI.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/GoogleMapAPI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="285">
+              <caret line="15" column="31" lean-forward="true" selection-end-line="69" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -57,6 +59,7 @@
     <findStrings>
       <find>get</find>
       <find>de</find>
+      <find>`</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,12 +228,12 @@
       <workItem from="1532965546903" duration="59000" />
       <workItem from="1532965633847" duration="302000" />
       <workItem from="1532965954525" duration="1329000" />
-      <workItem from="1532967289184" duration="7367000" />
+      <workItem from="1532967289184" duration="7555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9057000" />
+    <option name="totallyTimeSpent" value="9245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="394" y="17" width="1258" height="1047" extended-state="0" />
@@ -335,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/GoogleMapAPI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="285">
+          <caret line="15" column="31" lean-forward="true" selection-end-line="69" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -349,8 +352,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="382">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

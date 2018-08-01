@@ -1,6 +1,4 @@
 //This is main application Or Entry application
-
-
 //load express package ! to express variation.
 var fs = require("fs");
 //To catch path, loading moudle 'path'
@@ -8,8 +6,6 @@ var path = require("path");
 var express = require('express');
 //return application using call 'express' method
 var app = express();
-
-
 
 //File Existing ??
 fs.exists('./public/GoogleMapAPI.html',function(exists){
@@ -19,8 +15,6 @@ fs.exists('./public/GoogleMapAPI.html',function(exists){
 //Load File Part
 //Add this sentence 'use method'
 app.use(express.static('public'));
-
-
 
 //Router Part
 //If user connect home, run function(req,res)...

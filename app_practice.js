@@ -14,3 +14,9 @@ app.get('/',function(req,res){
     res.send("Hello this is main homepage");
 });
 
+app.get('/another',function(req,res){
+    fs.readFile('./public/html_practice.html',function(err,data){
+        res.writeHead(200,{'Contend-Type':'text/html'});
+        res.end(data);
+    })
+})

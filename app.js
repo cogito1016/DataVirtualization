@@ -19,7 +19,6 @@ app.use(express.static('public'));
 //Router Part
 //If user connect home, run function(req,res)...
 app.get('/',function(req,res){
-
     res.send('hello home page');
 });
 app.get('/login',function(req,res){

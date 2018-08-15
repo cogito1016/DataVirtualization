@@ -26,8 +26,9 @@ connection.query(sql,function(err,rows,fields){
     }
     else
     {
-        console.log('rows',rows);
-        console.log('fields',fields);
+        for(var i=0; i<rows.length;i++)
+            console.log('rows',rows[i].title);
+        //console.log('fields',fields);
     }
 
 });

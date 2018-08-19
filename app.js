@@ -7,6 +7,20 @@ var express = require('express');
 //return application using call 'express' method
 var app = express();
 
+//Jade <-> express Connecting!!
+//사용할 템플릿 엔진을 express에 알려주는 부분
+app.set('view engine','pug');
+//basic directory is 'views'
+//템플릿 파일을 /views디렉토리에 넣겠다
+app.set('views','./views');
+//Routing '/template address'
+app.get('/template',function(req,res){
+    //not 'send' use 'render', because template engine!
+    //Send after the rendering 'temp' template file.
+    res.render('template');
+});
+
+
 //File Existing ??
 fs.exists('./public/GoogleMapAPI.html',function(exists){
     console.log(exists? 'Yes':'no');

@@ -17,7 +17,10 @@ app.set('views','./views');
 app.get('/template',function(req,res){
     //not 'send' use 'render', because template engine!
     //Send after the rendering 'temp' template file.
-    res.render('template');
+    res.render('template', {time:Date()});
+    //Hello is object
+    //Hello object - > template.pug
+    //then, template.pug can to use Hello obejct !
 });
 
 

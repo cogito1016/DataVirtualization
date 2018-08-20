@@ -1,10 +1,11 @@
-
+//Needs a tables & databases named 'o2'
+//install Mysql!
 
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : 'Mrla758412z!',
+    password : '111111',
     database : 'o2',
     port : '3306'
 });

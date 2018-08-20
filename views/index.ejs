@@ -1,0 +1,20 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<!--웹 서버가 단순 문자열, 숫자등을 넘겨줄 때 사용법-->
+		<h1> <%= str %> </h1>
+		
+		<!-- 자바스크립트 코드를 이용하고 싶을 때 -->
+		<% for(var i=0; i<count; i++) { %>
+		<h2> for test! <h2>
+		<% } %>
+		
+		<!--웹 서버가 배열 등을 넘겨줬을 때 자바스크립트와 혼합해서 응용 -->
+		<script>
+			var arr = [ <%= array %> ];
+			alert(arr);
+		</script>
+		
+	</body>
+</html>

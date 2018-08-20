@@ -3,7 +3,6 @@ var app = require('express')();
 var bodyParser = require('body-parser');
 app.use(express.static('public'));
 
-var http = require('http').Server(app);
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
@@ -21,6 +20,6 @@ app.get('/', function (req, res) {
     });
 });
 
-http.listen(3000, function () {
+app.listen(3000, function () {
     console.log("server starting on localhost:3000");
 });

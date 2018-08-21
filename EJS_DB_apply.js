@@ -15,14 +15,11 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
-
 app.get('/', function(req, res){
-
     var arr='';
     connection.query('SELECT * from topic', function(err, rows) {
         if(err)
             console.log(err);
-
         console.log('The solution is: ', rows);
 
         for(var i=0;i<rows.length;i++)
@@ -31,14 +28,8 @@ app.get('/', function(req, res){
         res.render('DB_apply.ejs', {
             array: arr
         });
-
     });
 });
-
-
-
-
-
 app.listen(3000, function () {
     console.log("server starting on localhost:3000");
 });
